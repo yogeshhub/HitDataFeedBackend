@@ -1,0 +1,23 @@
+{
+  "name": "hitdatafeed",
+  "version": "1.0.0",
+  "description": "Data feeding backend application",
+  "main": "server.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yogeshhub/HitDataFeedBackend.git"
+  },
+  "author": "Yogesh KS",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yogeshhub/HitDataFeedBackend/issues"
+  },
+  "homepage": "https://github.com/yogeshhub/HitDataFeedBackend#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongodb": "^3.5.5"
+  }
+}
