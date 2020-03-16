@@ -7,10 +7,10 @@ app.get("/", function(req, res) {
 });
 
 app.get("/users", function() {
-  MongoClient.connect("mongodb://localhost:27017/test", function(err, db) {
+  MongoClient.connect("mongodb://localhost:27017/local", function(err, db) {
     if (err) next
     db
-      .collection("users")
+      .collection("startup_log")
       .find()
       .toArray(function(err, result) {
         if (err) throw err;
